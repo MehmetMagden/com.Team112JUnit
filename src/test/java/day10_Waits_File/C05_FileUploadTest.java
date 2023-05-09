@@ -26,9 +26,10 @@ public class C05_FileUploadTest extends TestBase {
         String dynamicpath = System.getProperty("user.home")+"\\Desktop\\HelloJava.txt"; // the file we want to upload
 
         //Select the file you want to upload .
-
+        ReusableMethods.waitFor(5);
         chooseFileButton.sendKeys(dynamicpath);
         //Hit the upload button .
+        ReusableMethods.waitFor(5);
 
         driver.findElement(By.id("file-submit")).click();
 

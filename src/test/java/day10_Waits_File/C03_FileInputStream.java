@@ -29,6 +29,7 @@ public class C03_FileInputStream {
 
                             // C:\Users\Maden
         String dynamicPath = System.getProperty("user.home")+"\\Desktop\\HelloJava.txt";
+
         FileInputStream fis2 = new FileInputStream(dynamicPath);
 
 

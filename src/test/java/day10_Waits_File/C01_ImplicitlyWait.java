@@ -25,6 +25,22 @@ public class C01_ImplicitlyWait {
 
 
 
+        /*
+        Thread.sleep(); comes from java , it stops the code and because of that it is called hard wait
+
+        implicitlyWait(): comes from selenium, It will wait for the job completed, when it is done, it will jump to the
+        next step
+
+        explicitlyWait(): if we want to set a longer waiting time than implicitlywait  for a web element,
+        We can  use this wait type
+
+        fluentwait() :
+
+
+         */
+
+
+
 
     }
 
