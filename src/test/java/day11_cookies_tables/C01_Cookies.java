@@ -42,6 +42,7 @@ public class C01_Cookies extends TestBase {
 
         //3- Test that the number of cookies on the page is greater than 5
 
+
         int expectedNumberCookies = 5;
         int actualNumberCookies = cookiesSet.size();
 
@@ -66,6 +67,7 @@ public class C01_Cookies extends TestBase {
         //5- Create a cookie with the name "my favorite cookie" and the value "chocolate" and add it to the page
 
         Cookie myCookie = new Cookie("my favorite cookie","chocolate"); // created the cookie
+
         driver.manage().addCookie(myCookie); // will add the cookie to website
 
         //6- test that the cookie you added is added to the page
